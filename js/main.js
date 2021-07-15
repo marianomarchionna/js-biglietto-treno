@@ -18,3 +18,9 @@ if (eta < 18) {
 } 
 
 console.log(costo.toFixed(2) + ' €');
+
+document.getElementById('eta_ticket').innerHTML = eta;
+
+document.getElementById('km_ticket').innerHTML = num_km + ' km';
+
+document.getElementById('costo_ticket').innerHTML = costo + ' €';

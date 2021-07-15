@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+/* COMMON */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+/* FINE COMMON */
+.ticket {
+    height: 300px;
+    width: 700px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.top {
+    height: 49px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.num-km {
+    float: left;
+    height: 100px;
+    width: 50%;
+}
+
+.eta {
+    float: left;
+    height: 100px;
+    width: 50%;
+}
+
+.costo {
+    height: 100px;
+    width: 100%;
+}
+
+.bottom {
+    height: 49px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: red;
+}

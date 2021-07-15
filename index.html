@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Costo Biglietto Treno</title>
 </head>
 
-<body>
+<body class="flex column align-center">
+    <h1>Questo è il tuo biglietto</h1>
+
+    <div class="ticket">
+        <div class="top flex justify-center align-center">
+            <i class="fas fa-train"></i>
+            <h2>Train Ticket</h2>
+        </div>
+        <div class="num-km flex column justify-center align-center">
+            <h2>Km da percorrere: </h2>
+            <h2 id="km_ticket"></h2>
+        </div>
+        <div class="eta flex column justify-center align-center">
+            <h2>Età passeggero: </h2>
+            <h2 id="eta_ticket"></h2>
+        </div>
+        <div class="costo flex justify-center align-center">
+            <h2>COSTO BIGLIETTO: </h2>
+            <h2 id="costo_ticket"></h2>
+        </div>
+        <div class="bottom">
+        </div>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
